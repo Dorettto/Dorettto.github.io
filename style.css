@@ -1,15 +1,24 @@
 #janela {
-    background-color: rgb(255, 250, 210);
+    background-color: rgb(54, 54, 54);
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 500px;
+    height: 550px;
     width: 30%;
+
+    padding: 20px;
+    border-radius: 30px;
 }
 
 #titulo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(172, 172, 172);
+}
+
+label, legend{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(172, 172, 172);
 }
