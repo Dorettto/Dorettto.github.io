@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="janela">
+        <h1 id="titulo">Formulário</h1>
+            <form action="" autocomplete="on">
+                <label for="NOME">Nome Completo</label>
+                <input type="text" name="NOME" placeholder="Nome Completo" autocomplete="name" required>
+
+                <label for="EMAIL">E-mail</label>
+                <input type="email" name="EMAIL" placeholder="E-mail" autocomplete="email" required>
+
+                <label for="TEL">Telefone</label>
+                <input type="tel" name="TEL" placeholder="00000-0000" minlength="9" maxlength="9" autocomplete="tel" required>
+
+                <label for="NASC">Data de Nascimento</label>
+                <input type="date" name="NASC" placeholder="00/00/0000" minlength="8" maxlength="8" autocomplete="bday-day" required>
+
+                <fieldset>
+                    <legend>Gênero</legend>
+                    <label for="GENERO">Feminino</label>
+                    <input type="radio" name="GENERO">
+                    <label for="GENERO">Masculino</label>
+                    <input type="radio" name="GENERO">
+                </fieldset>
+
+                <label for="MENSAGEM">Mensagem</label>
+                <textarea name="MENSAGEM" maxlength="200" required>Insira sua mensagem aqui</textarea>
+
+                <select name="SELECAO" required>
+                    <option value="Palestrante">Palestrante</option>
+                    <option value="Participante">Participante</option>
+                    <option value="Voluntário">Voluntário</option>
+                </select>
+                    
+
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </form>
+    </div>
+</body>
+</html>
