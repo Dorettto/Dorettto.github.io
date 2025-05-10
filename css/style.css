@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'moment' ;
+    src: url(../fonts/Aesthetic\ Moment\ \ Italic\ Personal\ Used.ttf);
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    background-color: rgb(28, 28, 28);
+}
+
+#janela {
+    background-color: rgb(67, 66, 66);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 90%;
+    width: 30%;
+
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1 {
+    font-family: 'moment';
+    color: rgb(172, 172, 172);
+    letter-spacing: 1px;
+}
+
+label, legend{
+    font-family: 'roboto';
+    color: rgb(172, 172, 172);
+}
