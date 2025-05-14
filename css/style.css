@@ -7,32 +7,68 @@
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
+:root{
+    --cinzaescuro:rgb(34, 34, 34);
+    --cinzamedio: rgb(104, 103, 103);
+    --creme:#f8f4e5;
+
+}
 body{
-    background-color: rgb(28, 28, 28);
+    background-color: var(--cinzaescuro);
 }
 
 #janela {
-    background-color: rgb(67, 66, 66);
+    background-color: var(--cinzamedio);
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 90%;
-    width: 30%;
+    height: 60%;
+    width: 450px;
 
-    padding: 20px;
+    padding: 25px;
     border-radius: 30px;
+    margin: auto;
 }
 
 h1 {
     font-family: 'moment';
-    color: rgb(172, 172, 172);
+    color: var(--cinzaescuro);
     letter-spacing: 1px;
 }
 
 label, legend{
     font-family: 'roboto';
-    color: rgb(172, 172, 172);
+    color: var(--cinzaescuro);
+}
+
+.botao{
+    padding: 15px;
+    margin: auto;
+
+    position:relative;
+    left: 35%;
+
+    border-radius: 20px;
+    background-color: var(--creme);
+
+    font-family: 'roboto';
+}
+
+.botao:hover{
+
+    font-family: 'roboto';
+    background-color: blueviolet;
+}
+
+input, textarea, select{
+    background-color: var(--creme);
+    font-family: 'roboto';
+
+}
+
+textarea{
+    width: 450px;
 }
